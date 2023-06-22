@@ -45,12 +45,12 @@ export default function Home(props) {
         source={require('../assets/images/image2.jpg')}
         style={{height: deviceHeight, width: deviceWidth}}
         imageStyle={{opacity: 0.6, backgroundColor: 'black'}}
-      />
+     />
       <View
         style={{
           position: 'absolute',
           paddingVertical: 20,
-          paddingHorizontal: 10,
+          paddingHorizontal: 10, 
         }}>
         <View
           style={{
